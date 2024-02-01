@@ -1,11 +1,14 @@
 {
   "name": "protect-hybrid-js",
-  "version": "6.7.0-a",
+  "version": "6.8.0",
   "description": "Digital.ai Hybrid JavaScript Protection",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node lib/postinstall.js"
+    "postinstall": "node lib/postinstall.js",
+    "setup-linux": "./installs/bin/protect-hybrid-js",
+    "setup-mac": "./installs/bin/protect-hybrid-js",
+    "setup-windows": "installs\\bin\\protect-hybrid-js.exe"
   },
   "keywords": [
     "protect-hybrid-js"
