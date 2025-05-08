@@ -1,6 +1,6 @@
 {
   "name": "protect-hybrid-js",
-  "version": "7.8.0",
+  "version": "7.9.0",
   "description": "Digital.ai Hybrid JavaScript Protection",
   "main": "index.js",
   "scripts": {
